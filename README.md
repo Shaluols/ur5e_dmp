@@ -43,7 +43,7 @@ The second image is the y and z change with time, from which we can see the dmp 
 <p align="center">
   <img src="images/temporal_scaling_test.png" width="400" title="temporal scaling">
 </p>
-It contains the temporal scaling, changing goal testing. 
+
 Then, you can test the performance on the ur5e and visualize it in moveit. 
 
 ```
