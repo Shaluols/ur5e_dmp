@@ -1,4 +1,4 @@
-# Dillinger
+# ur5e_dmp
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
@@ -6,8 +6,8 @@
 
 This repository is build based on the following two repositories, one for the ur5e simulation, the other one is for the dmp approach. This code is build for personal learning, so there is no guarantee for the bugs free. For those who want to understand the dmp, I strongly refer to these blogs: [https://studywolf.wordpress.com/2013/11/16/dynamic-movement-primitives-part-1-the-basics/]
 
-  - [https://github.com/studywolf/pydmps][pydmps] 
-  - [https://github.com/ros-industrial/universal_robot][universal robot]
+  - [https://github.com/studywolf/pydmps] [pydmps] 
+  - [https://github.com/ros-industrial/universal_robot] [universal robot]
 
 # Install
 
@@ -45,9 +45,11 @@ The second image is the y and z change with time, from which we can see the dmp 
 </p>
 It contains the temporal scaling, changing goal testing. 
 Then, you can test the performance on the ur5e and visualize it in moveit. 
+
 ```
 python dmp_ur5e_test.py
 ```
+
 <p align="center">
   <img src="images/change_goal.png" width="400" title="trajectory in moveit with different goal">
 </p>
